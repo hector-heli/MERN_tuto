@@ -1,0 +1,29 @@
+{
+  "name": "mern_tuto",
+  "version": "1.0.0",
+  "description": "Proyecto de seguimiento de tutorial de uso MERN. (https://www.youtube.com/watch?v=DqpL5UtJHus)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hector-heli/MERN_tuto.git"
+  },
+  "keywords": [],
+  "author": "Héctor Helí Ruiz García",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hector-heli/MERN_tuto/issues"
+  },
+  "homepage": "https://github.com/hector-heli/MERN_tuto#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.6.5",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
