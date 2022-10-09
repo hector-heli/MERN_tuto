@@ -1,0 +1,14 @@
+/*
+    Por inconvwenientes de compatibilidad con la instalación de paquetes de Babel se modifica la instalación 
+    según las instrucciones dadas en:
+    https://codesource.io/fix-plugin-preset-files-are-not-allowed-to-export/
+*/
+{
+    "presets": [
+        "@babel/react" , 
+        "@babel/env" 
+    ],
+    "plugins": [
+        "@babel/plugin-proposal-class-properties"
+    ]
+ }
